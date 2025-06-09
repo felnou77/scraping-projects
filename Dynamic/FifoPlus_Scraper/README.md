@@ -14,7 +14,7 @@ One of the main obstacles in scraping *fifoplus.com* was the **geolocation pop-u
 
 ### ✅ The Workaround
 
-To bypass this issue, a utility script (`utils.py`) was created to:
+To bypass this issue (and it's the first thing to do), a utility script (`utils.py`) was created to:
 
 - Launch the browser.
 - Prompt the user to manually select a city.
