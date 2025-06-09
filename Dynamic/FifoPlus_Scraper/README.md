@@ -1,6 +1,6 @@
 # 🛍️ FIFOPLUS Dynamic Scraper
 
-This is a freelance web scraping project developed for a client based in **Saudi Arabia**, targeting the **dynamic e-commerce platform** [fifoplus.com](https://www.fifoplus.com/). The main goal was to extract product information across different categories, despite the challenges posed by dynamic loading and geo-restriction mechanisms.
+This is a freelance web scraping project developed for a client based in **Saudi Arabia**, targeting the **dynamic e-commerce platform** [fifoplus](https://www.fifoplus.com/). The main goal was to extract product information across different categories, despite the challenges posed by dynamic loading and geo-restriction mechanisms.
 
 ## 🔍 Tech Stack & Libraries
 
@@ -10,7 +10,7 @@ This is a freelance web scraping project developed for a client based in **Saudi
 
 ## 🚧 Geolocation Pop-up Challenge
 
-One of the main obstacles in scraping *fifoplus.com* was the **geolocation pop-up** that appears when a user accesses the site for the first time, requiring them to manually select a city (e.g., Riyadh). This pop-up blocks all navigation and interaction until a location is chosen.
+One of the main obstacles in scraping *fifoplus* was the **geolocation pop-up** that appears when a user accesses the site for the first time, requiring them to manually select a city (e.g., Riyadh). This pop-up blocks all navigation and interaction until a location is chosen.
 
 ### ✅ The Workaround
 
