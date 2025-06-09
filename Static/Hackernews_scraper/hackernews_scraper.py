@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd 
 
-URL     = "https://news.ycombinator.com/news"
+URL      = "https://news.ycombinator.com/news"
 base_URL = "https://news.ycombinator.com/news"
 exit_all = False 
 
@@ -11,7 +11,6 @@ def normalize_url(path):
     return(base_URL+path)
 
 # Scraping the last 50 news on HackerNews
-
 news=[]
 while True : 
     page = requests.get(URL)
