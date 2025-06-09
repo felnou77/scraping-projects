@@ -4,6 +4,16 @@ This folder contains a collection of simple static web scraping projects built t
 
 These sites do not require JavaScript rendering, which makes them ideal for learning with tools like `requests` and `BeautifulSoup`.
 
+🔹 Static Website Scraping
+
+Static websites serve content that is already present in the HTML when the page loads. Scraping these sites is straightforward — you can fetch the page using tools like requests and parse it with BeautifulSoup.
+
+- ✅ Simple structure
+
+- ✅ Faster to scrape
+
+- ❌ Limited interaction (no JavaScript rendering)
+
 ---
 
 ## 📁 Projects Included
