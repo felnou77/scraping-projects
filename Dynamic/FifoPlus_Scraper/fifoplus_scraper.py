@@ -17,10 +17,6 @@ with sync_playwright() as p:
     categories_elements = categories_elements[:9]
 
     category_names = [el.query_selector("span").inner_text() for el in categories_elements]
-    print(f"{len(category_names)} catégories détectées")
-
-    category_links = [el.query_selector("a").get_attribute("href") for el in categories_elements]
-    print(category_links)
 
     # Empty list to store product information 
     produits = []
@@ -41,10 +37,8 @@ with sync_playwright() as p:
         full_scroll(page) #images are lazy loaded so we simulate scrolling
 
         
-
         products = page.query_selector_all("div.product-item-info")
         print(f"🛒 {len(products)} found products for {name}")
-
         
 
         for j, prod in enumerate(products) : 
