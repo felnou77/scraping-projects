@@ -8,11 +8,11 @@ These sites do not require JavaScript rendering, which makes them ideal for lear
 
 ## 📁 Projects Included
 
-### 1️⃣ `hackernews_scraper/` 
+### 1️⃣ `Hackernews_scraper/` 
 
-### 2️⃣ `fakejobs_scraper/`
+### 2️⃣ `Fakejobs_scraper/`
 
-### 3️⃣ `books_scraper/`
+### 3️⃣ `Books_scraper/`
 
 
 ---
