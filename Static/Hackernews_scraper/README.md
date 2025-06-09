@@ -10,7 +10,7 @@ Note that the data are recorded on 07/06/2025
 
 ## 🔧 Technologies Used
 
-- Python 3.x
+-  Python 3.x
 - `requests` – to send HTTP requests
 - `beautifulsoup4` – for parsing HTML content
 - `pandas` – for data manipulation and saving to CSV
@@ -24,12 +24,3 @@ Note that the data are recorded on 07/06/2025
 - Extracts the score (number of upvotes)
 - Stores the data in a clean xlsx file for analysis or archiving
 
----
-
-## 📂 Project Structure
-
-Hackernews_scraper/
-├── hackernews_scraper.py   # Main scraping script
-├── data/
-│ └── hackernews_data.xlsx  # Output data file
-└── README.md               # Project documentation
