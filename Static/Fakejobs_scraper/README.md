@@ -1,4 +1,4 @@
-# Books gallery Scraper 📰
+# Python Jobs Scraper 📰
 
 This project is a simple web scraper that collects the jobs infos from [Fake Python Jobs](https://realpython.github.io/fake-jobs/), including their titles, company names, location and much more.
 
@@ -8,10 +8,10 @@ It was built to practice static web scraping using Python, `requests`, `Beautifu
 
 ## 🔧 Technologies Used
 
-- Python 3.x
+-  Python 3.x
 - `requests` – to send HTTP requests
 - `beautifulsoup4` – for parsing HTML content
-- `pandas` – for data manipulation and saving to xlsx
+- `pandas` – for data manipulation and saving
 
 ---
 
@@ -21,13 +21,3 @@ It was built to practice static web scraping using Python, `requests`, `Beautifu
 - Extracts the corresponding company, location and date
 - Extracts the link and the job description
 - Stores the data in a clean xlsx file for analysis or archiving
-
----
-
-## 📂 Project Structure
-
-Fakejobs_scraper/
-├── fakejobs_scraper.py  # Main scraping script
-├── data/
-│ └── fakejobs_data.xlsx # Output data file
-└── README.md            # Project documentation
