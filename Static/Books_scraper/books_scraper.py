@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from urllib.parse import urljoin
 
-URL  = "https://books.toscrape.com/index.html"
+URL      = "https://books.toscrape.com/index.html"
 base_URL = "https://books.toscrape.com/catalogue/"
 
 # A function for URL management 
@@ -39,10 +39,11 @@ while True:
 
     # Checks pagination after processing the current page 
     next_link = soup.find("li", class_="next")
+
     if next_link:
         next_url = next_link.find("a")["href"]
         URL = normalize_url(next_url)
-        print(URL)
+    
     else:
         # No more pages ---> out of the loop
         break  
