@@ -4,7 +4,7 @@ from helpers import full_scroll
 
 with sync_playwright() as p:
     # Load saved state
-    browser = p.chromium.launch(headless=False)
+    browser = p.chromium.launch(headless=False) # Useful for debugging
     context = browser.new_context(storage_state="fifoplus_state.json")
 
     page = context.new_page()
