@@ -2,6 +2,7 @@
 # Install dependencies amd make sure to activate your virtual environment  
 from playwright.sync_api import sync_playwright
 from scrolling_helpers import full_scroll 
+import pandas as pd 
 
 with sync_playwright() as p:
     #(headless=False) to keep an eye on how your script is functionning otherwise if it's quick and straightforward True
@@ -70,5 +71,8 @@ with sync_playwright() as p:
                 print("➡️ Go to next page...")
                 page.wait_for_timeout(7000)
 
+    df = pd.DataFrame(produits)
+    df.to_excel("platraw_data.xlsx", index=False)
+    
     input("Press Enter to exit…")
     browser.close()

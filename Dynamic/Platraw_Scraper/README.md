@@ -35,4 +35,4 @@ It demonstrates how to handle scraping from **dynamic websites** using `Playwrig
    - Scrolls down the page to trigger content loading
    - Retrieves product title and image URL
 5. Navigates through all paginated results
-6. Stores the data in memory (you can later export to Excel, CSV, etc.)
+6. Stores the data in xlsx file 
