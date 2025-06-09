@@ -23,7 +23,7 @@ with sync_playwright() as p:
     # Empty list to store product information
     produits = []
 
-    for name in category_names[2:3]:
+    for name in category_names:
 
         # Open the menu at each iteration
         page.get_by_role("button", name="كل الفئات").click()
