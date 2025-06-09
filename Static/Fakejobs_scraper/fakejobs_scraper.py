@@ -2,13 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-URL = "https://realpython.github.io/fake-jobs/"
+URL  = "https://realpython.github.io/fake-jobs/"
 page = requests.get(URL)
 
 
-soup = BeautifulSoup(page.content, "html.parser")
-results = soup.find(id="ResultsContainer") # not necessary ! just narrowing down the HTML content ^^
-
+soup      = BeautifulSoup(page.content, "html.parser")
+results   = soup.find(id="ResultsContainer") # not necessary ! just narrowing down the HTML content ^^
 job_cards = results.find_all("div", class_= "card-content")
 
 
